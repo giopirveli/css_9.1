@@ -1,0 +1,669 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+}
+.allSemanticTag{
+display: flex;
+width: 100%;
+}
+.asideBar{
+    background-color: #14171F;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    padding: 24px;
+}
+.userProfileBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #7D70BD;
+border-bottom: 1px solid #7D70BD;
+padding: 12px 0;
+}
+.userCard{
+    display: flex;
+    gap: 6px;
+}
+.UserNickName{
+    display: flex;
+    flex-direction: column;
+}
+.UserNickName :first-child{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.navLinksConteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    width: 100%;
+}
+.navLinksBox{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.settingAndAnalyticLinkBox{
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+    width: 100%;
+}
+.UserNickName :last-child{
+    color: #929699;
+font-size: 14px;
+line-height: 22px; 
+}
+.navLink{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.navLink span{
+    color: #929699;
+    font-size: 16px;
+    line-height: 24px; 
+}
+/*     sidebar end           */
+/*         start header              */
+.otherSemanticTagConteiner{
+    display: flex;
+    flex-direction: column;
+    max-width: 1640px;
+    width: 100%;
+    margin: 24px;
+    gap: 32px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+}
+.headerLinksBox{
+    display: flex;
+    gap: 24px;
+}
+.headerLinksBox a{
+    color: #2F2F2F;
+font-size: 16px;
+line-height: 24px; 
+}
+.headerBtnsBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.headerLinksBox a{
+    color: #2F2F2F;
+font-size: 16px;
+line-height: 24px;
+}
+.firstBtnStyle{
+    border-radius: 50px;
+border: 1px solid #C7C7C7;
+background: #F7F7F7;
+padding: 8px 12px;
+color: #2F2F2F;
+font-size: 14px;
+line-height: 22px;
+align-items: center;
+}
+.secondBtnStyle{
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+padding: 8px 12px;
+color: #2F2F2F;
+font-size: 14px;
+line-height: 22px; 
+background-color: #fff;
+align-items: center;
+}
+/*      main   Starts                  */
+.PageEntarenseBox{
+    background-image: url("../images/titleBackground.png");
+    display: flex;
+    align-items: center;
+    min-height: 228px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    border-radius: 20px;
+    width: 100%;
+}
+.titleBackGround h1{
+    max-width: 420px;
+    width: 100%;
+    margin-left: 40px;
+    color: #2F2F2F;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px; 
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.thirdBtnStyle{
+    border-radius: 50px;
+border: 1px solid #3D414B;
+background: #14171F;
+padding: 8px 16px;
+color: #FFF;
+font-size: 14px;
+line-height: 22px; 
+}
+.opurtunityBtnsConteiner{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.firstpersonalInfoBoxTitleBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contactFormTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.firstpersonalInfoBoxTitleBox :first-child{
+    color: #14171F;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px; 
+}
+.firstpersonalInfoBoxTitleBox :last-child{
+    color: #666;
+font-size: 15px;
+line-height: 24px; 
+}
+.enterPersonalInfoConteiner{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+}
+.firstpersonalInfoBox{
+    border-radius: 16px;
+border: 1px solid #C7C7C7;
+padding: 24px 16px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.ordinaryInputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+.ordinaryInputBox input{
+    border-radius: 8px;
+border: 1px solid #C7C7C7;
+background: #F9FBFC;
+padding: 12px 16px;
+}
+.ordinaryInputBox label{
+    color: #2F2F2F;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px; 
+}
+.nameAndEmailInputBox{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+.contactNumberAndBirthDayBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.saveInfoBtn{
+    align-self: flex-end;
+    border-radius: 8px;
+background: #7F56D9;
+padding: 10px 24px;
+max-width: 105px;
+width: 100%;
+border: 0;
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+}
+.emailInputBox input{
+    border-radius: 8px;
+border: 1px solid #7B62FF;
+background: #E6E1FF;
+box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url('../images/calendarIcon.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.countrySelectorAndInputBox {
+    width: 350px;
+    width: 100%;
+    display: flex;
+    gap: 6px;
+}
+.countrySelectorAndInputBox input{
+    width: 100%;
+}
+.countrySelectorAndInputBox select{
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    padding: 12px 16px;
+    color: #FFF;
+font-size: 14px;
+line-height: 24px; 
+appearance: none;
+}
+.secondPartOfPersonalInfoBox{
+    display: flex;
+    gap: 24px;
+}
+.secondPersonalBox{
+    border-radius: 16px;
+border: 1px solid #C7C7C7;
+padding: 24px 16px;
+flex: 2;
+display: flex;
+flex-direction: column;
+gap: 32px;
+min-width: 400px;
+}
+.thirdPersonalBox{
+    border-radius: 16px;
+border: 1px solid #C7C7C7;
+padding: 24px 16px;
+flex: 1;
+}
+.secondPartpersonalInfoBoxTitleBox span{
+    color: #14171F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.enterPersonalInfoConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.ordinaryInfoBoxTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.ordinaryInfoBoxTitle :first-child{
+    color: #666;
+    font-size: 14px;
+    line-height: 24px; 
+}
+.ordinaryInfoBoxTitle :last-child{
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.ordinaryInfoBox{
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+.ordinaryInfoBox img{
+    width: fit-content;
+}
+.ordinaryInfoConteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.headerLinksBox :first-child{
+display: none;
+}
+.ordinaryInfoConteinersBackground{
+    border-radius: 12px;
+background: #F9FBFC;
+padding: 16px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+.thirdPersonalBoxTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdPersonalBoxTitle span{
+    color: #14171F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.thirdPersonalBox{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.additionalLinksSelector{
+    border-radius: 8px;
+border: 1px solid #C7C7C7;
+background: #F9FBFC;
+padding: 12px 16px;
+width: 100%;
+}
+.selectAndHttpsInputBox{
+    display: flex;
+    gap: 6px;
+}
+.additionalLinksBox{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.additionalLinksSelecteorinput{
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    padding: 12px 16px;  
+    width: 40%;
+    max-width: 80px;
+    width: 100%;
+}
+.additionalInfoForProfile{
+    border-radius: 16px;
+background: #14171F;
+padding: 16px;
+flex: 1;
+}
+.additionalInfoFirstBox{
+    border-radius: 12px;
+background: #FFF;
+padding: 16px;
+}
+.personalInformationConteiner{
+    display: flex;
+    gap: 32px;
+}
+.additionalInfoFirstBox{
+    display: flex;
+    justify-content: space-between;
+}
+.profilePictureAndNameBox{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+.editAndEarthIconBox{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+.profilePictureAndNameBox span{
+    color: #2F2F2F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.profilePictureAndNameBoxBtns{
+    display: flex;
+    gap: 16px;
+}
+.additionalInfoForProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.secondAdditionalInfoBox{
+    border-radius: 12px;
+    background: #FFF;
+    padding: 16px; 
+    max-height: 130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.locationSelectorTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.secondAdditionalInfoBox select{
+    border-radius: 8px;
+border: 1px solid #C7C7C7;
+background: #F9FBFC;
+padding: 12px 16px;
+}
+.secondAdditionalInfoBox select option{
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    width: 100%;
+}
+.thirdAdditionalInfoBox{
+    border-radius: 12px;
+    background: #FFF;
+    padding: 16px; 
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+.aboutUserTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUserTitle :first-child{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    color: #2F2F2F;
+}
+.aboutUserTitle :last-child{
+    color: #2F2F2F;
+   font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.aboutMe{
+    border-radius: 8px;
+border: 1px solid #C7C7C7;
+padding: 12px 16px;
+flex: 1;
+resize: none;
+}
+.aboutMe::placeholder{
+    color: #666;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*       css for ipod                            */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .asideBar {
+        display: none;
+    }
+    .headerLinksBox :first-child{
+        display: flex;
+        align-self: flex-start;
+    }
+    .additionalInfoForProfile{
+        order: -1;
+    }
+    .personalInformationConteiner{
+        flex-direction: column;
+    }
+    .enterPersonalInfoConteiner{
+        width: 100%;
+    }
+    .thirdAdditionalInfoBox{
+        min-height: 150px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .asideBar {
+        display: none;
+    }
+    .headerLinksBox :first-child{
+        display: flex;
+        align-self: flex-start;
+    }
+    .additionalInfoForProfile{
+        order: -1;
+    }
+    .personalInformationConteiner{
+        flex-direction: column;
+    }
+    .enterPersonalInfoConteiner{
+        width: 100%;
+    }
+    .nameAndEmailInputBox{
+        flex-direction: column;
+    }
+    .contactNumberAndBirthDayBox{
+        flex-direction: column;
+    }
+    .secondPersonalBox{
+        min-width: none;
+    }
+    .secondPartOfPersonalInfoBox{
+        flex-direction: column;
+    }
+    .header{
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .titleBackGround h1{
+        color: #2F2F2F;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px; 
+        max-width: 280px;
+        width: 100%;
+    }
+    .ordinaryInfoConteiner{
+        flex-direction: column;
+    }
+    .secondPersonalBox{
+        width:100%;
+        min-width: 0;
+    }
+    .thirdAdditionalInfoBox{
+        min-height: 300px;
+    }
+    .ordinaryInputBox {
+        width: 100%;
+    }
+    .firstBtnStyle{
+        font-size: 12px;
+        line-height: 22px; 
+        padding: 4px 8px;
+    }
+    .secondBtnStyle{
+        font-size: 12px;
+        line-height: 22px; 
+        padding: 4px 8px;
+        display: flex;
+    }
+    .headerLinksBox a{
+        font-size: 14px;
+        line-height: 24px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
