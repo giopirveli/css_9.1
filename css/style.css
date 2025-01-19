@@ -145,7 +145,7 @@ align-items: center;
 }
 /*      main   Starts                  */
 .PageEntarenseBox{
-    background-image: url("./images/titleBackground.png");
+    background-image: url("../images/titleBackground.png");
     display: flex;
     align-items: center;
     min-height: 228px;
@@ -269,7 +269,7 @@ background: #E6E1FF;
 box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
-    background: url('./images/calendarIcon.svg') no-repeat;
+    background: url('../images/calendarIcon.svg') no-repeat;
     background-position: center;
     background-size: cover;
 }
