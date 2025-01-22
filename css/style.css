@@ -12,7 +12,6 @@ a{
 }
 .allSemanticTag{
 display: flex;
-width: 100%;
 }
 .asideBarmainPart{
     max-width: 300px;
